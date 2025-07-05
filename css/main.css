@@ -967,9 +967,6 @@ a.button{
     background-image:  linear-gradient(45deg, #863CEF, #A668FF);;
     border-radius: 10px;
 }
-.faq-item:hover{
-	background-color: #;
-}
 .faq-question {
   background: none;
   border: none;
