@@ -205,6 +205,9 @@ a.button{
     .section-banner .img-float-l img, .section-banner .img-float-r img{
         max-width: 450px;
     }
+    .section-banner .logo{
+        margin-top: -100px;
+    }
 }
 /*====================================================================*/
 .sash {
@@ -569,7 +572,7 @@ a.button{
     margin-top: 150px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:safe;
     gap: 20px;
 }
 .section-prices .container-prices .price-single{
@@ -580,7 +583,6 @@ a.button{
     text-align: center;
     background-color: #fff;
     color: #000;
-    min-height: 95vh;
 }
 .section-prices .container-prices .price-single img{
     max-width: 200px;
